@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* sign-in / register page */
+.login-signup {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* sign-in/ new-user forms */
+.sign-in-form,
+.new-user-form {
+    display: grid;
+    place-items: center;
+    width: 50%;
+    height: 100vh;
+}
+
+.sign-in-form input,
+.new-user-form input {
+    width: 300px;
+    height: 30px;
+    font-size: 1.1rem;
+    padding: 0 .5rem 0 .5rem;
+    
+}
+
+.sign-in-form button,
+.new-user-form button {
+    width: 300px;
+    height: 30px;
+    font-size: 1.1rem;
+}
+
+.sign-in-container,
+.new-user-container {
+    display: flex;
+    flex-direction: column;
+}
+
+/* sign-in form only */
+.sign-in-form {
+    background: #5fff4341;
+}
+
+/* registration form only */
+.new-user-form {
+    background: lightblue;
+}
